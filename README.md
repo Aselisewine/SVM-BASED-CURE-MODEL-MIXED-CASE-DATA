@@ -1,4 +1,4 @@
-A1. - 
+A1. The function to find the left and right end points
 
 A2 - A4. The function "mydata()" generates synthetic data to test the performance of our proposed model.
 
