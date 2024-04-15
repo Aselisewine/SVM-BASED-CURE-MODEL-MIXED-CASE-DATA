@@ -1,8 +1,4 @@
-library(e1071)
 library(survival)
-library(icenReg)
-library(Rlab)
-library(MASS)
 
 # A1. function to find the left and right end points
 LR.MIC=function(t,ub){
@@ -86,6 +82,8 @@ data.MIC = function(n,alpha,beta1,beta2,setting){
 
 
 
+library(MASS)
+
 # A3. Data generation: Ten covariates with correlation and complex interactions
 
 data.CORR <- function(n,alpha,beta1,beta2,beta3,beta4,beta5,beta6,beta7,beta8,beta9,beta10,setting){
@@ -162,6 +160,7 @@ data.CORR <- function(n,alpha,beta1,beta2,beta3,beta4,beta5,beta6,beta7,beta8,be
 
 
 
+library(Rlab)
 # A4. Data generation: Ten covariates with only complex interactions
 
 data.HIGH <- function(n,alpha,beta1,beta2,beta3,beta4,beta5,beta6,beta7,beta8,beta9,beta10, setting){
@@ -299,6 +298,10 @@ Turnbull = function(mydata){  #mydata of form (l,r)
   return(out)
 }
 
+
+
+library(e1071)
+library(icenReg)
 
 # A6. SVM EM
 
