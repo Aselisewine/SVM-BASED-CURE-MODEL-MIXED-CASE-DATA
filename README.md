@@ -5,3 +5,5 @@ A2 - A4. The function "data.MIC()", "data.CORR()", and "data.HIGH()" generate sy
 A5. The function "Turnbull()" estimates the baseline survival function using the Turnbull baseline Estimator.
 
 A6. The function "em.svm.MIC()" is the support vector machine-based EM algorithm to estimate the model parameters and different quantities of interest.
+
+A7. The function "smcure.svm.MIC()" is used to estimates the semi-parametric mixture cure rate model
